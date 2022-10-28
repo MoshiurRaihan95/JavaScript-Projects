@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick Image Zoom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="images">
+        <img srcset="" id="mainimg" src="images/1.jpg" width="800px" height="400" alt=""> 
+        <div class="slider_imgs">
+            <img srcset="" onclick="ChangeImg(this.src)" src="images/2.jpg" width="250px" height="250px" alt="">
+            <img srcset="" onclick="ChangeImg(this.src)" src="images/3.jpg" width="250px" height="250px" alt="">
+            <img srcset="" onclick="ChangeImg(this.src)" src="images/4.jpg" width="250px" height="250px" alt="">
+            <img srcset="" onclick="ChangeImg(this.src)" src="images/5.jpg" width="250px" height="250px" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
