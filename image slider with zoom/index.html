@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onclick Image Zoom</title>
+    <title>Image Slider With Zoom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="images">
-        <img srcset="" id="mainimg" src="images/1.jpg" width="800px" height="400" alt=""> 
-        <div class="slider_imgs">
-            <img srcset="" onclick="ChangeImg(this.src)" src="images/2.jpg" width="250px" height="250px" alt="">
-            <img srcset="" onclick="ChangeImg(this.src)" src="images/3.jpg" width="250px" height="250px" alt="">
-            <img srcset="" onclick="ChangeImg(this.src)" src="images/4.jpg" width="250px" height="250px" alt="">
-            <img srcset="" onclick="ChangeImg(this.src)" src="images/5.jpg" width="250px" height="250px" alt="">
+    <div class="container">
+        <div class="images">
+            <div class="slider">
+                <img srcset="" id="main_img" src="images/1.jpg" width="810px" height="400" alt="">
+                <div class="arrow_icons">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="slider_imgs">
+                <img srcset="" onclick="ChangeImg(this.src)" src="images/2.jpg" width="200px" height="170px" alt="">
+                <img srcset="" onclick="ChangeImg(this.src)" src="images/3.jpg" width="200px" height="170px" alt="">
+                <img srcset="" onclick="ChangeImg(this.src)" src="images/4.jpg" width="200px" height="170px" alt="">
+                <img srcset="" onclick="ChangeImg(this.src)" src="images/5.jpg" width="200px" height="170px" alt="">
+            </div>
         </div>
+        
     </div>
     <script src="script.js"></script>
 </body>
