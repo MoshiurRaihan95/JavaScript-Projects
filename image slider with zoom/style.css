@@ -17,6 +17,13 @@ body{
 .slider{
     position: relative;
 }
+.slider img{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 .slider_imgs i{
     font-size: 20px;
     line-height: 30px;
@@ -58,4 +65,13 @@ body{
 }
 .arrow_icons i:hover{
     background-color: rgb(73, 52, 52);
+}
+.slider_imgs img{
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
